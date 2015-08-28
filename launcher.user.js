@@ -1313,7 +1313,7 @@ console.log("Running Bot Launcher!");
 
                 //UPDATE
                 toggle = false,
-                toggleDraw = false,
+                toggleDraw = true,
                 toggleFollow = false,
                 tempPoint = [0, 0, 1],
                 dPoints = [],
