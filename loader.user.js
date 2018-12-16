@@ -27,7 +27,7 @@ function getLatestCommit() {
                 latestVersion = latestVersion.substring(latestVersion.indexOf("// @version") + 11, latestVersion.indexOf("// @grant"));
 
                 latestVersion = parseFloat(latestVersion + 0.0000);
-                var script1 = "https://cdn.rawgit.com/Apostolique/Agar.io-bot/" + sha + "/launcher.user.js";
+                var script1 = "https://cdn.combinatronics.com/Apostolique/Agar.io-bot/" + sha + "/launcher.user.js";
                 console.log("Script: " + script1);
                 window.jQuery("body").append('<script type="text/javascript" src="' + script1 + '"></script>');
                 
@@ -37,7 +37,7 @@ function getLatestCommit() {
                 latestVersion = latestVersion.substring(latestVersion.indexOf("// @version") + 11, latestVersion.indexOf("// @grant"));
 
                 latestVersion = parseFloat(latestVersion + 0.0000);
-                var script2 = "https://cdn.rawgit.com/Apostolique/Agar.io-bot/" + sha + "/bot.user.js";
+                var script2 = "https://cdn.combinatronics.com/Apostolique/Agar.io-bot/" + sha + "/bot.user.js";
                 console.log("Script: " + script2);
                 window.jQuery("body").append('<script type="text/javascript" src="' + script2 + '"></script>');
             });
